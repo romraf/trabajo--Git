@@ -1,0 +1,39 @@
+#logo {
+    width: 100px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: -10px;
+
+}
+
+#condiciones {
+    height: 20px;
+    margin-right: 5px;
+}
+
+#Contenedor{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch center;
+    justify-content: space-between;
+    background-color: #0e3f6c;
+    opacity: 90%;
+    width: 500px;
+    height: 650px;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+input:not(#condiciones) {
+    text-align: center;
+}
+
+h1 {
+    color: #efb810;
+    text-shadow: 3px 0px 2px black;
+}

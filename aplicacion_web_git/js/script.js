@@ -3,11 +3,15 @@
         window.location.href = ruta;
     }
 
+    
     document.getElementById("terminos").addEventListener("click", () => { redireccionar("https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_privacidad") })
 
     document.getElementsByClassName("landing")[0].addEventListener("click", function () {
         redireccionar("index.html");
     })
+
+
+
 
     document.getElementsByClassName("landing")[1].addEventListener("click", function () {
         redireccionar("index.html");
